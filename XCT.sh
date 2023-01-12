@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "======================================="
-echo "XCT XOS Command Tool "
+echo "CommanderSH BY Eggplant48 "
 echo "========MENU=========================="
 echo "Press 1 to update grub"
 echo "Press 2 to update Repo's"
@@ -23,6 +23,6 @@ case "$answer" in
 4) uname -r ;;
 5) command apt list;;
 6) sudo nvidia-xconfig ;; 
-7) echo "XCT 2021 By Eggplant48 v00.1.0 ______________________" ;;
+7) echo "CommanderSH 2021-2023 By Eggplant48 v00.2.0 ______________________" ;;
 0) exit ;;
 esac
